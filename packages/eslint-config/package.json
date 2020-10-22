@@ -10,16 +10,19 @@
     "build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Oleg Dutchenko",
+    "email": "dutchenko.o.dev@gmail.com"
+  },
   "keywords": [
     "@stripped-ui",
     "code-style",
     "eslint",
     "eslintconfig"
   ],
-  "author": {
-    "name": "Oleg Dutchenko",
-    "email": "dutchenko.o.dev@gmail.com"
+  "publishConfig": {
+    "access": "public"
   },
-  "license": "BSD-3-Clause",
   "gitHead": "098084820bcf02d960d76581e9a34e28e0f03505"
 }
