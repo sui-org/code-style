@@ -1,0 +1,23 @@
+{
+  "name": "@stripped-ui/eslint-config",
+  "version": "0.0.1-prealpha",
+  "description": "ESLint shareable config used in @stripped-ui",
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "@stripped",
+    "code-style",
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "Oleg Dutchenko",
+    "email": "dutchenko.o.dev@gmail.com"
+  },
+  "license": "BSD-3-Clause"
+}
