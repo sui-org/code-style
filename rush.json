@@ -376,6 +376,10 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "@stripped-ui/eslint-config",
+      "projectFolder": "packages/eslint-config"
+    }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
