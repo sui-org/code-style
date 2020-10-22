@@ -2,9 +2,12 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --check --write"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2"
   }
 }
