@@ -1,6 +1,6 @@
 {
   "name": "@stripped-ui/eslint-config",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "description": "ESLint shareable config used in @stripped-ui",
   "main": ".eslintrc.js",
   "files": [
