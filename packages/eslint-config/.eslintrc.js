@@ -1,9 +1,9 @@
 module.exports = {
 	extends: ['standard', 'plugin:prettier/recommended'],
 	rules: {
-		'no-tabs': 0,
-		'import/no-unresolved': 0,
-		'import/namespace': 0,
+		'no-tabs': 'off',
+		'import/no-unresolved': 'off',
+		'import/namespace': 'off',
 		indent: [
 			'error',
 			'tab',
