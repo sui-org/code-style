@@ -2,7 +2,6 @@
 // Deps
 // -----------------------------------------------------------------------------
 
-const fs = require('fs');
 const glob = require('glob');
 const fromCWD = require('from-cwd');
 
@@ -24,7 +23,7 @@ const getFixtures = (pkgRelativePath) => {
 			? 'valid'
 			: null;
 		if (typeof branch === 'string') {
-			cases[branch].push(fs.readFileSync(file).toString());
+			cases[branch].push(file);
 		}
 		return cases;
 	}, cases);
