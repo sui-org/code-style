@@ -1,0 +1,1 @@
+# @stripped-ui/eslint-config
