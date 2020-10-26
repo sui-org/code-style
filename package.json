@@ -2,8 +2,12 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "test": "npm run prettier && lerna run test",
-    "publish": "lerna publish",
+    "----------------------------- Lerna": "***",
+    "lerna:test": "npm run prettier && lerna run test",
+    "lerna:upgrade": "lerna init",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna publish",
+    "----------------------------- Prettier": "***",
     "prettier": "prettier . --check",
     "prettier:fix": "prettier . --check --write"
   },
