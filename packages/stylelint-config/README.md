@@ -1,0 +1,1 @@
+# @stripped-ui/stylelint-config

@@ -1,0 +1,11 @@
+{
+	"extends": ["@stripped-ui/stylelint-config", "stylelint-config-recommended-scss"],
+	"rules": {
+		"max-nesting-depth": [
+			5,
+			{
+				"ignore": ["pseudo-classes"]
+			}
+		]
+	}
+}
