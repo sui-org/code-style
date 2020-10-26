@@ -1,0 +1,9 @@
+{
+	"extends": ["stylelint-config-recommended", "stylelint-config-standard"],
+	"rules": {
+		"declaration-no-important": true,
+		"indentation": "tab",
+		"selector-max-id": 0,
+		"selector-max-universal": 0
+	}
+}

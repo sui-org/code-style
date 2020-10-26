@@ -1,0 +1,30 @@
+{
+  "name": "@stripped-ui/stylelint-config",
+  "version": "0.0.4-beta.0",
+  "description": "Stylelint shareable config used in @stripped-ui",
+  "main": ".stylelintrc",
+  "files": [
+    ".stylelintrc"
+  ],
+  "scripts": {
+    "test": "exit 0"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Oleg Dutchenko",
+    "email": "dutchenko.o.dev@gmail.com"
+  },
+  "keywords": [
+    "@stripped-ui",
+    "code-style",
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
