@@ -6,12 +6,18 @@ const printIfErrors = require('../../../utils/printIfErrors');
 describe('Rules', () => {
 	const cli = new eslint.CLIEngine({
 		useEslintrc: false,
-		configFile: '.eslintrc.js'
+		configFile: '.eslintrc.js',
+		parser: '@typescript-eslint/parser',
+		parserOptions: {
+			sourceType: 'module',
+			ecmaVersion: 2019
+		}
 	});
-	const { valid, invalid } = getFixtures('tests/fixtures/*.js');
+
+	const { valid, invalid } = getFixtures('tests/fixtures/*.ts');
 	describe('Valid cases', () => {
 		valid.forEach((file) => {
-			const fileName = path.basename(file) + '.js';
+			const fileName = path.basename(file) + '.ts';
 			test(fileName, () => {
 				const result = cli.executeOnFiles(file);
 				printIfErrors(result);
@@ -21,7 +27,7 @@ describe('Rules', () => {
 	});
 	describe('Invalid cases', () => {
 		invalid.forEach((file) => {
-			const fileName = path.basename(file) + '.js';
+			const fileName = path.basename(file) + '.ts';
 			test(fileName, () => {
 				const result = cli.executeOnFiles(file);
 				expect(result.errorCount).toBeGreaterThan(0);

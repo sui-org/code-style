@@ -13,7 +13,7 @@ const fromCWD = require('from-cwd');
  * @param {string} pkgRelativePath
  * @returns {{valid: string[], invalid: string[]}}
  */
-const getFixtures = (pkgRelativePath) => {
+module.exports = (pkgRelativePath) => {
 	const pattern = fromCWD(pkgRelativePath);
 	const cases = { valid: [], invalid: [] };
 	return glob.sync(pattern).reduce((cases, file) => {
@@ -28,9 +28,3 @@ const getFixtures = (pkgRelativePath) => {
 		return cases;
 	}, cases);
 };
-
-// -----------------------------------------------------------------------------
-// export
-// -----------------------------------------------------------------------------
-
-module.exports = getFixtures;

@@ -7,7 +7,9 @@
     ".eslintrc.js"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "check-valid": "eslint tests/fixtures/*.valid.js --config .eslintrc.tests.js",
+    "check-invalid": "eslint tests/fixtures/*.invalid.js --config .eslintrc.tests.js"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -33,11 +35,11 @@
     "eslint-plugin-standard": "^4.0.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.11.0",
     "jest": "^26.6.0"
   },
   "peerDependencies": {
     "eslint": "^7.11.0"
-  },
-  "gitHead": "098084820bcf02d960d76581e9a34e28e0f03505"
+  }
 }
