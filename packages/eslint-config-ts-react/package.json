@@ -1,0 +1,45 @@
+{
+  "name": "@stripped-ui/eslint-config-ts-react",
+  "version": "0.0.10-beta.0",
+  "description": "ESLint shareable config for TypeScript + React used in @stripped-ui",
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js"
+  ],
+  "scripts": {
+    "test": "",
+    "check-valid": "eslint tests/fixtures/*.valid.ts --config .eslintrc.tests.js",
+    "check-invalid": "eslint tests/fixtures/*.invalid.ts --config .eslintrc.tests.js"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Oleg Dutchenko",
+    "email": "dutchenko.o.dev@gmail.com"
+  },
+  "keywords": [
+    "@stripped-ui",
+    "code-style",
+    "eslint",
+    "eslintconfig",
+    "react",
+    "ts",
+    "tsx",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@stripped-ui/eslint-config-ts": "latest",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.11.0"
+  }
+}

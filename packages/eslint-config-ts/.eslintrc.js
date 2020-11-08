@@ -1,10 +1,10 @@
 module.exports = {
-	extends: ['@stripped-ui/eslint-config', 'plugin:@typescript-eslint/recommended'],
+	extends: ['plugin:@typescript-eslint/recommended', '@stripped-ui/eslint-config'],
 	rules: {
-		'@typescript-eslint/explicit-function-return-type': 0,
-		'@typescript-eslint/explicit-module-boundary-types': 0,
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		'@typescript-eslint/naming-convention': [
-			2,
+			'error',
 			{
 				selector: 'property',
 				modifiers: ['private'],
@@ -88,16 +88,17 @@ module.exports = {
 				}
 			}
 		],
-		'@typescript-eslint/no-empty-interface': 0,
-		'@typescript-eslint/no-explicit-any': 0,
-		'@typescript-eslint/no-var-requires': 0,
+		'@typescript-eslint/no-empty-interface': 'off',
+		'@typescript-eslint/no-explicit-any': 'off',
+		'@typescript-eslint/no-var-requires': 'off',
 		'@typescript-eslint/no-unused-vars': [
-			2,
+			'error',
 			{
 				vars: 'all',
 				args: 'none',
 				caughtErrors: 'all'
 			}
-		]
+		],
+		'no-unused-vars': 'off'
 	}
 };
