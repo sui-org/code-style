@@ -1,6 +1,6 @@
 {
   "name": "@stripped-ui/eslint-config-ts-react",
-  "version": "0.0.10-beta.0",
+  "version": "0.0.11-beta.0",
   "description": "ESLint shareable config for TypeScript + React used in @stripped-ui",
   "main": ".eslintrc.js",
   "files": [
