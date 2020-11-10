@@ -1,6 +1,6 @@
 {
   "name": "@stripped-ui/stylelint-config-scss",
-  "version": "0.0.12-beta.0",
+  "version": "0.0.13-beta.0",
   "description": "SCSS stylelint shareable config used in @stripped-ui",
   "main": ".stylelintrc.json",
   "files": [
@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@stripped-ui/stylelint-config": "^0.0.12-beta.0",
+    "@stripped-ui/stylelint-config": "latest",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-scss": "^3.18.0"
   },
