@@ -6,6 +6,12 @@
 			{
 				"ignore": ["pseudo-classes"]
 			}
+		],
+		"value-keyword-case": [
+			"lower",
+			{
+				"ignoreKeywords": ["NULL"]
+			}
 		]
 	}
 }

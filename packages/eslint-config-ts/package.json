@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@stripped-ui/eslint-config": "latest"
+    "@stripped-ui/eslint-config": "^0.0.10-beta.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.6.1",

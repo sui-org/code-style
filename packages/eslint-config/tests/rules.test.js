@@ -11,7 +11,7 @@ describe('Rules', () => {
 	const { valid, invalid } = getFixtures('tests/fixtures/*.js');
 	describe('Valid cases', () => {
 		valid.forEach((file) => {
-			const fileName = path.basename(file) + '.js';
+			const fileName = path.basename(file);
 			test(fileName, () => {
 				const result = cli.executeOnFiles(file);
 				printIfErrors(result);
@@ -21,7 +21,7 @@ describe('Rules', () => {
 	});
 	describe('Invalid cases', () => {
 		invalid.forEach((file) => {
-			const fileName = path.basename(file) + '.js';
+			const fileName = path.basename(file);
 			test(fileName, () => {
 				const result = cli.executeOnFiles(file);
 				expect(result.errorCount).toBeGreaterThan(0);
