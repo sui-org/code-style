@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@stripped-ui/stylelint-config": "latest",
+    "@stripped-ui/stylelint-config": "^0.1.0-beta.0",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-scss": "^3.18.0"
   },
