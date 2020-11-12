@@ -1,6 +1,6 @@
 {
   "name": "@stripped-ui/stylelint-config",
-  "version": "0.1.0-beta.0",
+  "version": "0.3.0-beta.0",
   "description": "Stylelint shareable config used in @stripped-ui",
   "main": ".stylelintrc.json",
   "files": [
