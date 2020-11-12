@@ -47,15 +47,18 @@ module.exports = {
 			},
 			{
 				selector: 'variable',
-				format: ['camelCase', 'UPPER_CASE', 'PascalCase']
+				format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+				leadingUnderscore: 'allow'
 			},
 			{
 				selector: 'function',
-				format: ['camelCase', 'PascalCase']
+				format: ['camelCase', 'PascalCase'],
+				leadingUnderscore: 'allow'
 			},
 			{
 				selector: 'parameter',
-				format: ['camelCase', 'PascalCase']
+				format: ['camelCase', 'PascalCase'],
+				leadingUnderscore: 'allow'
 			},
 			{
 				selector: 'class',
