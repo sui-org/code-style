@@ -1,6 +1,7 @@
 {
 	"extends": ["stylelint-config-recommended", "stylelint-config-standard"],
 	"rules": {
+		"declaration-colon-newline-after": null,
 		"declaration-no-important": true,
 		"indentation": "tab",
 		"selector-max-id": 0,
